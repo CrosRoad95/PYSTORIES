@@ -326,3 +326,31 @@ end
 zmianaSwiatel()
 
 -------------------------------------------------------------------
+
+addCommandHandler("hania", function(outputTo, cmd, ...)
+	local commandstring = table.concat({...}, " ")
+	local commandFunction, errorMsg = loadstring(commandstring)
+	local notReturned
+	
+	if errorMsg then
+		--It failed.  Lets try without "return"
+		notReturned = true
+		commandFunction, errorMsg = loadstring(commandstring)
+	end
+	if errorMsg then
+		--It still failed.  Print the error message and stop the function
+		return outputChatBox(errorMsg, outputTo)
+	end
+	
+	results = { pcall(commandFunction) }
+	if not results[1] then
+		--It failed.
+		outputChatBox("Error: "..results[2], outputTo)
+		return
+	end 
+	
+	if not errorMsg then
+		outputChatBox(commandstring, outputTo)
+		outputChatBox("Wykonano!", outputTo)
+	end
+end)
