@@ -142,22 +142,21 @@ end, 60000, 0)
 
 -------------------------------------------------------------------
 
-addEventHandler("onPlayerWasted", root, function()
-	plr=source
-	if getElementData(plr,"player:job") then
-		triggerClientEvent(plr,"onFinish", root, plr)
-		setElementData(plr,"player:job", false)
+addEventHandler("onPlayerWasted", getRootElement(), function()
+	local player = source
+	if getElementData(player, "player:job") then
+		triggerClientEvent(player, "onFinish", getRootElement(), player)
+		setElementData(player, "player:job", false)
 	end
-	setTimer(function()
-		local pos=getElementData(plr,"player:spawn")
-		if not pos then return end
-		fadeCamera(plr, true)
-		setElementInterior(plr,0)
-		setElementDimension(plr,0)
-		spawnPlayer(plr, pos[1], pos[2], pos[3])
-		setCameraTarget(plr, plr)
-		setElementModel(plr, getElementData(plr, "player:skin"))
-	end, 60, 1)
+	setTimer(function(player)
+		local spawnPosition = getElementData(player, "player:spawn")
+		if not spawnPosition then return false end
+		local playerSkin = getElementData(player, "player:skin") or 0
+		local x, y, z = unpack(spawnPosition)
+		fadeCamera(player, true)
+		spawnPlayer(player, x, y, z, 0, playerSkin)
+		setCameraTarget(player, player)
+	end, 60, 1, player)
 end)
 
 -------------------------------------------------------------------
@@ -166,11 +165,6 @@ addEvent("giveSpray", true)
 addEvent("takeSpray", true)
 addEventHandler("giveSpray", root, function()
 	giveWeapon ( source, 41, 200 )
-end)
-
-addEvent("givecamera", true)
-addEventHandler("givecamera", root, function()
-	giveWeapon ( source, 43, 99999999 )
 end)
 
 addEventHandler("takeSpray", root, function()
@@ -233,14 +227,7 @@ end)
 
 -------------------------------------------------------------------
 
-
 addEventHandler("onPlayerChangeNick", root, function() cancelEvent() end)
-addEventHandler("onResourceStart", root, function() 
-local players=getElementsByType('player')
-for _, p in pairs(players) do
---bindKey(p, "y", "down", "chatbox", "global")
-end
-end)
 
 -------------------------------------------------------------------
 
@@ -256,29 +243,6 @@ setTimer(function()
 		end
  	end
 end, 500, 0)
-
--------------------------------------------------------------------
-
-setTimer(function()
-  for i,v in ipairs(getElementsByType("player")) do
-	if not getElementData(v,"player:spawn") then return end
-	if isPedDead(v) then
-		local pos=getElementData(v,"player:spawn")
-		fadeCamera(v, true)
-		setElementInterior(v,0)
-		setElementDimension(v,0)
-		spawnPlayer(v, pos[1], pos[2], pos[3])
-		setCameraTarget(v, plr)
-		setElementModel(v, getElementData(plr, "player:skin"))
-	end
-	if( getPlayerIdleTime(v) > 1 ) then
-	setElementData(v, "player:afk", true)
-	elseif ( getPlayerIdleTime(v) < 1 ) then
-	setElementData(v, "player:afk", false)
-	end	
-  end
-end, 10000, 0)
-
 
 -------------------------------------------------------------------
 

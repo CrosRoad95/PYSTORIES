@@ -13,7 +13,6 @@
 	<script src="s_saveplayers.lua" type="server" />
 	<script src="c_saveplayers.lua" type="client" />
 	<script src="c_damages.lua" type="client" />
-	<script src="c_interaction.lua" type="client" />
 	<script src="c_zmiana.lua" type="client" cache="false" />
 	<script src="s_zmiana.lua" type="server" />
 	<!-- SERVERSIDE !-->
