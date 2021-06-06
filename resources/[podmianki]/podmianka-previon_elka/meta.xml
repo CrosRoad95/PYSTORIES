@@ -1,8 +1,0 @@
-<meta>
-	<info author="Sebastian 'CrosRoad95' Jura" type="script" description="ELKA"/>
-	
-	<script src="replace.lua" type="client"/>
-	<file src="previon.dff" type="client" />
-	<file src="previon.txd" type="client" />
-	
-</meta>

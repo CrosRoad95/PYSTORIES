@@ -1,5 +1,0 @@
-<meta>
-    <info author="Sebastian 'CrosRoad95' Jura" version="1.0.0" type="script" name="" description=""></info>
-    <script src="s_ipob.lua" type="server"></script>
-    <script src="c_ipob.lua" type="client"></script>
-</meta>

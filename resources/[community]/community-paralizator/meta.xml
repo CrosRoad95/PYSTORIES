@@ -1,7 +1,0 @@
-<meta>
-	<info author="Sebastian 'CrosRoad95' Jura" version="1.0" type="script" name="Paralizator" />
-	<min_mta_version client="1.3.0-9.04555" />
-	<min_mta_version server="1.3" />
-	<script src="paralizator_s.lua" type="server" />
-	<script src="paralizator_c.lua" type="client" />
-</meta>

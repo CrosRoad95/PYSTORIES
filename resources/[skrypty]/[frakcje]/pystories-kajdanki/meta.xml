@@ -1,5 +1,0 @@
-<meta>
-<script src="a.lua" type="server"/>
-<script src="policja.lua" type="server"/>
-<script src="policja_c.lua" type="client"/>
-</meta>

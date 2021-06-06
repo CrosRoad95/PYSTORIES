@@ -1,4 +1,0 @@
-<meta>
-<script src="parking_c.lua" type="client" cache="false"/>
-<script src="parking_s.lua" type="server"/>
-</meta>

@@ -1,5 +1,0 @@
-<meta>
-	<script src="s_job.lua" type="server" />
-	<!-- CLIENTSIDE -->
-	<script src="c_job.lua" type="client" />
-</meta>

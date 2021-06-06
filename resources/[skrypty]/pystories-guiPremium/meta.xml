@@ -1,4 +1,0 @@
-<meta>
-	<script src="s_pgui.lua" type="server" />
-	<script src="c_pgui.lua" type="client" />
-</meta>

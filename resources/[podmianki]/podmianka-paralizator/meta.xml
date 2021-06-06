@@ -1,6 +1,0 @@
-<meta>
-<script src="s.lua" type="server"/>
-<file src="taser.dff"/>
-<file src="taser.txd"/>
-<script src="c.lua" type="client"/>
-</meta>

@@ -1,7 +1,0 @@
-<meta>
-	<info author="Sebastian 'CrosRoad95' Jura" type="script" name="SyncedFire" version="1.0.2" />
-	<file src="fire.dff" />
-    <script src="synced_fire.lua" />
-    <script src="synced_fire_c.lua" type="client" />
-	<export function="createFire" />
-</meta>

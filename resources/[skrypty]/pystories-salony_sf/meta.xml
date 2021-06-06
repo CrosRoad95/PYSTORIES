@@ -1,5 +1,0 @@
-<meta>
-	<oop>true</oop>
-	<!-- SERVERSIDE -->
-	<script src="s_vehbuy.lua" type="server" />
-</meta>

@@ -1,8 +1,0 @@
-<meta>
-	<file src="fonts/vopis_pys.ttf" />
-	<script src="c_gui.lua" type="client" cache="false"/>
-	<script src="gui_c.lua" type="client" cache="false" />
-	<script src="bg.lua" type="client" cache="false" />
-	<file src="i/bg.png"/>
-	
-</meta>

@@ -1,7 +1,0 @@
-
-<meta>
-    <info type="script" name="SuperMan" version="1.0.0" author="Sebastian 'CrosRoad95' Jura" />
-    <script src="podmianka.lua" type="client"/>
-    <file src="4.dff" />
-    <file src="4.txd" />
-</meta>

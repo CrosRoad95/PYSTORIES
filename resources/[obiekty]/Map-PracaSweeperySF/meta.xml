@@ -1,6 +1,0 @@
-<meta>
-    <info type="map" name="Work Sweepers" author="Sebastian 'CrosRoad95' Jura" version="1.0.0" description="Praca sweeperów San Fierro"></info>
-    <map src="Map-PracaSweeperySF.map" dimension="0"></map>
-    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
-    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
-</meta>

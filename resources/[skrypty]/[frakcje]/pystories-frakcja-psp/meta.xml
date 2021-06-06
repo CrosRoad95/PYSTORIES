@@ -1,8 +1,0 @@
-<meta>
-	<oop>true</oop>
-	
-    <script src="s_PSP.lua" type="server" />
-    <script src="s_command.lua" type="server" />
-    <script src="s_duty.lua" type="server" />
-    <script src="s_vehicles.lua" type="server" /> 
-</meta>

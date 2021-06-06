@@ -1,7 +1,0 @@
-<meta>
-	<!-- SERVERSIDE -->
-	<script src="s_zarzadzanie.lua" type="server" />
-	
-	<!-- CLIENTSIDE -->
-	<script src="c_zarzadzanie.lua" type="client" cache="false"/>
-</meta>

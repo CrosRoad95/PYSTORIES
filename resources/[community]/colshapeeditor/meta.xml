@@ -1,6 +1,0 @@
-<meta>
-	<info author = "Sebastian 'CrosRoad95' Jura" type = "script" version = "1.2" name = "Collision Shape Editor" description = "Create Shapes And You Will get the code as simple as that :D" />
-	<script src = "Client.lua" type = "client" />
-	<script src = "Server.lua" type = "server" />
-	<oop>true</oop>
-</meta>

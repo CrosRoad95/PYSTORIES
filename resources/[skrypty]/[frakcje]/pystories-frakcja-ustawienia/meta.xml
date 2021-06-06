@@ -1,8 +1,0 @@
-<meta>
-	<!-- SERVERSIDE -->
-	<script src="s_utility.lua" type="server" />
-	<script src="s_skins.lua" type="server" />
-	<export function="rozpocznijnaliczanie" type="server" />
-	<export function="zatrzymajnaliczanie" type="server" />
-	<export function="getPlayerFactionRank" type="server" />
-</meta>

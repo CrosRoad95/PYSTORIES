@@ -1,4 +1,0 @@
-<meta>
-	<script src="s_tuning.lua" type="server" />
-	<script src="c_tuning.lua" type="client" />
-</meta>

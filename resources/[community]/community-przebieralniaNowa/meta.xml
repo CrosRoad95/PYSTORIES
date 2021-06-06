@@ -1,4 +1,0 @@
-<meta>
-	<script src="wybor.lua" type="client" />
-	<script src="interior.lua" type="server" />
-</meta> 

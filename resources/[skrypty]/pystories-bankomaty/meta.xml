@@ -1,6 +1,0 @@
-<meta>
-	<script src="bankomaty_c.lua" type="client" />
-	<script src="bankomaty.lua" type="server" />
-	<file src="czcionki/MyRiadPro-PYStories.ttf" />
-	<file src="52.png" />
-</meta>

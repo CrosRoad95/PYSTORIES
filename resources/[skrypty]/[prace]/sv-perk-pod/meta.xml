@@ -1,7 +1,0 @@
-<meta>
-	<info type="misc" name="Car replacement for: Coach" author="Sebastian 'CrosRoad95' Jura description="" version="1" />
-	<file src="streed.txd" />
-	<file src="streed.dff" />
-	<script type="client" src="replace.lua" />
-	<script type="client" src="readme.lua" />
-</meta>

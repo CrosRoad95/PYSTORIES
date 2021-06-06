@@ -1,5 +1,0 @@
-<meta>
-	<info author="Sebastian 'CrosRoad95' Jura" description="godmode" type="script" version="1.0" />
-    <script src="c_godmode.lua" type="client"></script>
-	<script src="s_godmode.lua" type="server"></script>
-</meta>

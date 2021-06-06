@@ -1,6 +1,0 @@
-<meta>
-	<script src="c_gielda.lua" type="client" />
-	<script src="s_gielda.lua" type="server" />
-	<script src="s_sprzedaz.lua" type="server" />
-	<script src="tp.lua" type="server" />
-</meta>

@@ -1,8 +1,0 @@
-<meta>
-	<!-- EXPORTS -->
-	<export function="dbSet" type="server" />
-	<export function="dbGet" type="server" />
-
-	<!-- SERVERSIDE -->
-	<script src="s_db.lua" type="server" />
-</meta>

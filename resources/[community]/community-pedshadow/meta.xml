@@ -1,5 +1,0 @@
-<meta>
-	<info author="Sebastian 'CrosRoad95' Jura" name="remove ped shadow" version="1.0" type="misc" />
-	<script src="client.lua" type="client" cache="false" />
-	<file src="shader.fx" />
-</meta>

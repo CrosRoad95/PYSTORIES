@@ -1,7 +1,0 @@
-<meta>
-    <script src="c_medyk.lua" type="client" />
-    <script src="s_vehicles.lua" type="server" />
-    <script src="s_medyk.lua" type="server" />
-	<script src="s_duty.lua" type="server" />
-	<script src="s_command.lua" type="server" />
-</meta>

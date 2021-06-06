@@ -1,6 +1,0 @@
-<meta>
-	<info author="Sebastian 'CrosRoad95' Jura" version="1.0.0" type="script" name="Praca dorywcza - Transport Pojazdów"/>
-
-	<script src="c.lua" type="client"/>
-	<script src="s.lua" type="server"/>
-</meta>

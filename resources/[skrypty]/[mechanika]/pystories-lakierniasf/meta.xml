@@ -1,8 +1,0 @@
-<meta>
-	<file src="cursor.png" />
-	<file src="h.png" />
-	<file src="sv.png" />
-	<file src="blank.png" />
-	<script src="c_lakiernia.lua" type="client" />
-	<script src="picker_client.lua" type="client" />
-</meta>

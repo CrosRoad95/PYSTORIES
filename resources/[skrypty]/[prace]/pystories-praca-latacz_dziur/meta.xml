@@ -1,4 +1,0 @@
-﻿<meta>
-	<script src="bus.lua" type="server" />
-	<script src="bus_c.lua" type="client" />
-</meta>

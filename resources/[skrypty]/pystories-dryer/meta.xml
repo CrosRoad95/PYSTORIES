@@ -1,9 +1,0 @@
-<meta>
-
-	<script src="utils.lua" type="client" />
-	
-	<script src="c_suszarka.lua" type="client" />
-	
-	<script src="s_suszarka.lua" type="server" />
-	
-</meta>

@@ -1,4 +1,0 @@
-﻿<meta>
-	<script src="svs.lua" type="server" />
-	<script src="svc.lua" type="client" />
-</meta>

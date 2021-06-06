@@ -1,5 +1,0 @@
-<meta>
-     <info author="Sebastian 'CrosRoad95' Jura"/>
-    <script src="nitro_s.lua" type="server" />
-	<script src="nitro_c.lua" type="client" />
-</meta>

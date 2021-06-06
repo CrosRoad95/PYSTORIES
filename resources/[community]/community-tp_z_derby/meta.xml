@@ -1,4 +1,0 @@
-<meta>
-     <info author="Sebastian 'CrosRoad95' Jura" version="0.1" type="server" name="My Server" description="Teleport z derb" />
-     <script src="tp.lua" type="server" />
-</meta>

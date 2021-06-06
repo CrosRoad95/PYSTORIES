@@ -1,8 +1,0 @@
-<meta>
-
-	<script src="c_paliwo.lua" type="client" />
-	<script src="client.lua" type="client" cache="false"/>
-	<script src="server.lua" type="server" cache="false"/>
-	<file src="49.png" />
-	
-</meta>

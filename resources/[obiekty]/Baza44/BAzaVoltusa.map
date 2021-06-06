@@ -1,4 +1,0 @@
-<map edf:definitions="editor_main">
-    <object id="object (ClubGate01_LAx) (1)" breakable="true" interior="0" alpha="255" model="3749" doublesided="false" scale="1" dimension="0" posX="-2199.3999" posY="308.39999" posZ="40" rotX="0" rotY="0" rotZ="0"></object>
-    <object id="object (airportgate) (1)" breakable="true" interior="0" alpha="255" model="980" doublesided="false" scale="1" dimension="0" posX="-2199.5" posY="309.60001" posZ="31.2" rotX="0" rotY="0" rotZ="0"></object>
-</map>
